@@ -1,5 +1,8 @@
 # Clipboard-Health-Nurse-Staffing-Analysis-2024Q2
 
+<img src="https://github.com/user-attachments/assets/8f7ccdc3-cad6-454c-a098-57ccd546ff4e" alt="drawing" width="700"/>
+
+
 ## Contents
 
 - [Background](#background)
