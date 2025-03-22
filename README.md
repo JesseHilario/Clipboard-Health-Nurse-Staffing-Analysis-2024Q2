@@ -74,19 +74,19 @@ In order to analyze date data more effectively, I created a date table using Pow
 The HPRD information from the Provider Information table includes an aggregated number of Staffing HPRD for each facility, including category for Case-Mix, which uses CMS’s Minimum Data Set (MDS) to assess resident data for expected care (i.e., resident acuity) based on the complexity of residents' conditions (e.g., health status, care needs, functional abilities).
 Using this, we are able to see that the reported average state HPRD appears to be above the legally required 3.48 (see Figure 1.A. below). However, when we swap the reported hours for the adjusted Case-Mix HPRD, we find that the average state HPRD is actually much lower (Figure 1.B. below). I broke this up between professional nursing staff (i.e., RNs and LPNs; Figure 1.C.) and nurse aides (Figure 1.D.):
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 _Figure 1._
 
 While professional nursing staff needs are typically met (i.e., at least 0.55 HPRD), no state on average has enough hours for nurse aides (i.e., at least 2.45 HPRD).
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 _Figure 2._
 
 I wanted to see which of the three nurse aide positions was had the most employment. Looking at Figure 2, we can see that certified nurse aides (CNAs) have the vast majority of hours when compared to either nurses in training and medical aides (Natrn and MedAide in the PBJ table, respectively). As we can see from Figure 3, there are only 16 facilities that meet the required 2.55 HPRD for nurse aides!
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 _Figure 3._
 
@@ -96,13 +96,13 @@ In light of this, when considering which roles to focus recruitment on, CNAs app
 
 I used the computed HPRD metric again to compare the usage of professional nurses and nurse aides to see differences across days of the week (Figure 4). I used the date table to visualize HPRD for weekdays on average.
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 _Figure 4._
 
 Again, I drilled down to see the weekday trends between contractors versus employees in Figure 5. Contractors are employed primarily over the weekend, including Friday. Employees work primarily on weekdays.
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 _Figure 5._
 
@@ -114,7 +114,7 @@ Considering this, I recommend hiring contractors who will work primarily on week
 The Provider Information table also provides measures for the Number of Substantiated Complaints and the Number of Facility Reported Incidents. These are the number of times a complaint or an incident, respectively, resulted in a citation. These are issues related to care, which are likely to be related to staffing numbers. In particular, I wanted to explore the relationship with total nurse aide HPRD and nurse aide contractor HPRD.
 In Figure 6, I graphed these against the Average Case-Mix Nurse Aide HPRD. I also added the dimension for Nurse Aide Contractor HPRD by using color—the deeper the red, the lower the HPRD for contractor nurse aides while deeper blue means greater HPRD. Larger bubbles signify a higher concentration of facilities for the particular HPRD and complaint/incident number.
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 _Figure 6._
 
@@ -129,14 +129,14 @@ I recommend Clipboard Health to focus on offering staffing to facilities on the 
 
 I used the computed Utilization measure to see the states with the highest contractor utilization percentage. These states could indicate where a reliance on contractors is the norm and might potentially help in deciding where to recruit and send our contractors. In Figure 7, I created simple tables to sort the states by greatest contractor utilization, as well as for nurse aides and professional nurses.
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 _Figure 7._
 
 Contractor utilization percentage is dominated by the northeast for both Professional and Aide workers (see Utilization). Vermont has the highest utilization by far. This is followed by New Jersey, Maine, NJ, Pennsylvania, Delaware, and New York. I recommend to focus recruiting efforts on these states.
 I recommend especially to capitalizing on Vermont and Maine; utilization rates are so high that contractors are employed throughout the week, not only on weekends, as seen in Figure 8. Looking at the first recommendation, we could potentially explore other lower-utilization states, but these would likely have to focus on weekends.
 
-![alt text](image-7.png) ![alt text](image-8.png)
+![alt text](images/image-7.png) ![alt text](images/image-8.png)
 
 _Figure 8. Vermont (top) and Maine (bottom)._
 
